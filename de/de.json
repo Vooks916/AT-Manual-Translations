@@ -1,0 +1,18 @@
+{
+    "header": {
+        "home_page_title": "Armored Turtle Anleitungen"
+    },
+    "body": {
+        "of": "von",
+        "required_parts": "Erforderliche Teile:",
+        "home": "Übersicht"
+    },
+    "buttons": {
+        "view_manual": "Handbuch Ansehen",
+        "primary_color": "Primärfarbe:",
+        "accent_color": "Akzentfarbe:",
+        "frame_color": "Rahmenfarbe:",
+        "previous": "Zurück",
+        "next": "Weiter"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "header": {
+        "home_page_title": "Armored Turtle Manuals"
+    },
+    "body": {
+        "of": "of",
+        "required_parts": "Required Parts:",
+        "home": "Home"
+    },
+    "buttons": {
+        "view_manual": "View Manual",
+        "primary_color": "Primary Color:",
+        "accent_color": "Accent Color:",
+        "frame_color": "Frame Color:",
+        "previous": "Previous",
+        "next": "Next"
+    }
+}

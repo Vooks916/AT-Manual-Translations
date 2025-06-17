@@ -1,0 +1,18 @@
+{
+    "header": {
+        "home_page_title": "Manuels Armored Turtle"
+    },
+    "body": {
+        "of": "de",
+        "required_parts": "Pièces requises:",
+        "home": "Home"
+    },
+    "buttons": {
+        "view_manual": "Consulter le manuel",
+        "primary_color": "Couleur Primaire:",
+        "accent_color": "Couleur Accent:",
+        "frame_color": "Couleur du cadre:",
+        "previous": "Précédent",
+        "next": "Suivant"
+    }
+}
