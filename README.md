@@ -51,7 +51,9 @@ export default {
   steps: {
     "step-id": {
       title: "Translated Title",
-      content: "Translated description of this step"
+      content: `
+        <p>Translated description of this step in HTML formatting</p>
+      `
       parts: [
         "Part 1",
         "Part 2"
