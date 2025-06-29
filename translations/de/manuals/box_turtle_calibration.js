@@ -1,15 +1,15 @@
 export default {
-    "name": "BoxTurtle Calibration Anleitung",
-    "subManuals": {},
-    "steps": {
-        "box_turtle_calibration_boxturtle_calibration_fidget": {
-            "title": "BoxTurtle Calibration Fidget",
-            "description": "Dies ist ein Kalibrierungsdruck, um Ihre Slicer-Einstellungen beim Bau des BoxTurtle Automated Filament Changers zu testen und dient gleichzeitig als cooles Fidget-Spielzeug!",
-            "parts": []
+    name: "BoxTurtle Calibration Anleitung",
+    subManuals: {},
+    steps: {
+        box_turtle_calibration_step1: {
+            title: "BoxTurtle Calibration Fidget",
+            description: "Dies ist ein Kalibrierungsdruck, um Ihre Slicer-Einstellungen beim Bau des BoxTurtle Automated Filament Changers zu testen und dient gleichzeitig als cooles Fidget-Spielzeug!",
+            parts: []
         },
-        "box_turtle_calibration_step2": {
-            "title": "",
-            "content": `
+        box_turtle_calibration_step2: {
+            title: "",
+            content: `
                 <div class="info">
                     <h3>RICHTLINIEN FÜR GEDRUCKTE BAUTEILE</h3>
                     <p>Folgende Druckeinstellungen werden empfohlen, um die Erfolgschancen für Ihre gedruckten Teile zu maximieren.</p>
@@ -42,11 +42,11 @@ export default {
                     </div>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "box_turtle_calibration_step3": {
-            "title": "",
-            "content": `
+        box_turtle_calibration_step3: {
+            title: "",
+            content: `
                 <div class=info>
                     <h3>DATEINAMEN</h3>
                     <p>Mittlerweile sollten Sie die STL-Dateien von <a href="https://www.printables.com/model/1004303-box-turtle-calibration-fidget" target="_blank">Printables</a> heruntergeladen haben. Die Dateien werden nach folgenden Richtlinien benannt.</p>
@@ -78,29 +78,29 @@ export default {
                     <p>Wenn Sie Unterstützung beim Aufbau benötigen, sind wir für Sie da. Besuchen Sie unseren <a href="https://discord.gg/AaVHfeYgw2" target="_blank">Discord-Server</a> und stellen Sie Ihre Fragen. Dies ist unser Hauptkanal für Hilfe, und unsere großartige Community kann Ihnen weiterhelfen, falls Sie nicht weiterkommen.</p>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "box_turtle_calibration_support_removal": {
-            "title": "Stützstrukturen entfernen",
-            "description": "Achten Sie darauf, dass die vorderen und hinteren Stützen am Gehäuse sowie die Stützen am turtle_box_retainer problemlos entfernt werden können.",
-            "parts": [
+        box_turtle_calibration_step4: {
+            title: "Stützstrukturen entfernen",
+            description: "Achten Sie darauf, dass die vorderen und hinteren Stützen am Gehäuse sowie die Stützen am turtle_box_retainer problemlos entfernt werden können.",
+            parts: [
                 "body.stl",
                 "turtle_box_retainer.stl"
             ]
         },
-        "box_turtle_calibration_test_body_assembly": {
-            "title": "Zusammenbau",
-            "description": "Testen Sie den Sitz des Magneten, der ECAS-Kupplung und des MR148ZZ-Lagers. Der ECAS sollte eng anliegen. Wenn der Magnet etwas locker ist, verwenden Sie etwas Superkleber.",
-            "parts": [
+        box_turtle_calibration_step5: {
+            title: "Zusammenbau",
+            description: "Testen Sie den Sitz des Magneten, der ECAS-Kupplung und des MR148ZZ-Lagers. Der ECAS sollte eng anliegen. Wenn der Magnet etwas locker ist, verwenden Sie etwas Superkleber.",
+            parts: [
                 "1x 6x3mm Magnet",
                 "1x ECAS-Kupplung mit entferntem hinteren Gummipuffer",
                 "1x MR148ZZ Lager"
             ]
         },
-        "box_turtle_calibration_trigger_assembly": {
-            "title": "Trigger Montage",
-            "description": "Lassen Sie etwa 3,5 mm Abstand zwischen dem Trigger und den Schraubenköpfen.",
-            "parts": [
+        box_turtle_calibration_step6: {
+            title: "Trigger Montage",
+            description: "Lassen Sie etwa 3,5 mm Abstand zwischen dem Trigger und den Schraubenköpfen.",
+            parts: [
                 "trigger.stl",
                 "feeder.stl",
                 "1x 6x3mm Magnet",
@@ -108,24 +108,24 @@ export default {
                 "2x M3x8mm Zylinderschraube (SHCS)"
             ]
         },
-        "box_turtle_calibration_sub_assemblies": {
-            "title": "Trigger einsetzen",
-            "description": "Setzen Sie den Trigger in die oberen Ausnehmungen des Gehäuses ein.",
-            "parts": []
+        box_turtle_calibration_step7: {
+            title: "Trigger einsetzen",
+            description: "Setzen Sie den Trigger in die oberen Ausnehmungen des Gehäuses ein.",
+            parts: []
         },
-        "box_turtle_calibration_turtle_box_install": {
-            "title": "Abdeckung einsetzen",
-            "description": "Setzen Sie die beiden oberen Laschen der Abdeckung in das Gehäuse ein und drücken Sie sie dann nach unten, um die Abdeckung einzurasten.",
-            "parts": [
+        box_turtle_calibration_step8: {
+            title: "Abdeckung einsetzen",
+            description: "Setzen Sie die beiden oberen Laschen der Abdeckung in das Gehäuse ein und drücken Sie sie dann nach unten, um die Abdeckung einzurasten.",
+            parts: [
                 "[a]_turtle_box.stl"
             ]
         },
-        "box_turtle_calibration_final": {
-            "title": "Finale",
-            "description": "Überprüfen Sie, ob der Trigger gleichmäßig bewegt werden kann und beim Loslassen einrastet.",
-            "parts": [
+        box_turtle_calibration_step9: {
+            title: "Finale",
+            description: "Überprüfen Sie, ob der Trigger gleichmäßig bewegt werden kann und beim Loslassen einrastet.",
+            parts: [
                 "[a]_turtle_box_retainer.stl"
             ]
         }
-    }
+    },
 }

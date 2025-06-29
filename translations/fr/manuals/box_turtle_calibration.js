@@ -1,20 +1,20 @@
 export default {
-    "name": "Manuel de calibration BoxTurtle",
-    "subManuals": {},
-    "steps": {
-        "box_turtle_calibration_boxturtle_calibration_fidget": {
-            "title": "Fidget de calibration BoxTurtle",
-            "description": "Il s'agit d'une impression d'étalonnage pour tester vos paramètres du trancheur lors de la construction du changeur de filament automatique de la tortue et se double d'un jouet fidget cool lorsque vous avez terminé!",
-            "parts": []
+    name: "Manuel de calibration BoxTurtle",
+    subManuals: {},
+    steps: {
+        box_turtle_calibration_step1: {
+            title: "Fidget de calibration BoxTurtle",
+            description: "Il s'agit d'une impression d'étalonnage pour tester vos paramètres du trancheur lors de la construction du changeur de filament automatique de la tortue et se double d'un jouet fidget cool lorsque vous avez terminé!",
+            parts: []
         },
-        "box_turtle_calibration_step2": {
-            "title": "",
-            "content": `
+        box_turtle_calibration_step2: {
+            title: "",
+            content: `
                 <div class="info">
                     <h3>RECOMMANDATION D'IMPRESSION DES PIECES</h3>
                     <p>Paramètres d'impression que nous vous recommandons de suivre afin d'obtenir les meilleures chances de réussite des pièces.</p>
                 </div>
-    
+
                 <div class="print-settings">
                     <div class="print-setting">
                         <h4>PROCÉDÉ D'IMPRESSION 3D</h4>
@@ -42,11 +42,11 @@ export default {
                     </div>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "box_turtle_calibration_step3": {
-            "title": "",
-            "content": `
+        box_turtle_calibration_step3: {
+            title: "",
+            content: `
                 <div class=info>
                     <h3>DÉNOMINATION DES FICHIERS</h3>
                     <p>Normalement, vous avez déjà dû récupérer les fichiers STL via <a href="https://www.printables.com/model/1004303-box-turtle-calibration-fidget" target="_blank">Printables</a>. Voici la convention de dénomination.</p>
@@ -78,29 +78,29 @@ export default {
                     <p>Si vous avez besoin d'aide pour votre construction, nous sommes là pour vous aider. Rendez-vous sur notre <a href="https://discord.gg/AaVHfeYgw2" target="_blank">Discord Server</a> et postez y vos questions. C'est le principal moyen pour obtenir de l'aide: l'excellente communauté pourra vous aider si vous êtes coincé.</p>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "box_turtle_calibration_support_removal": {
-            "title": "Retrait du support",
-            "description": "Assurez-vous de pouvoir facilement retirer les supports arrière et avant sur le corps ainsi que les supports sur le Turtle_Box_Retainer.",
-            "parts": [
+        box_turtle_calibration_step4: {
+            title: "Retrait du support",
+            description: "Assurez-vous de pouvoir facilement retirer les supports arrière et avant sur le corps ainsi que les supports sur le Turtle_Box_Retainer.",
+            parts: [
                 "body.stl",
                 "turtle_box_retainer.stl"
             ]
         },
-        "box_turtle_calibration_test_body_assembly": {
-            "title": "Assemblage du corps de test",
-            "description": "Test de l'aimant, du connecteur ECAS et du roulement MR148ZZ. Les ECAS devraient être bien ajustés. Si l'aimant est un peu lâche, utilisez de la super colle.",
-            "parts": [
+        box_turtle_calibration_step5: {
+            title: "Assemblage du corps de test",
+            description: "Test de l'aimant, du connecteur ECAS et du roulement MR148ZZ. Les ECAS devraient être bien ajustés. Si l'aimant est un peu lâche, utilisez de la super colle.",
+            parts: [
                 "1x aimant 6x3",
                 "1x connecteur ECAS avec le connecteur interne retiré",
                 "1x roulement MR148ZZ"
             ]
         },
-        "box_turtle_calibration_trigger_assembly": {
-            "title": "Assemblage du déclencheur",
-            "description": "Laisser environ 3,5mm d'espace entre la gâchette et les têtes de vis.",
-            "parts": [
+        box_turtle_calibration_step6: {
+            title: "Assemblage du déclencheur",
+            description: "Laisser environ 3,5mm d'espace entre la gâchette et les têtes de vis.",
+            parts: [
                 "trigger.stl",
                 "feeder.stl",
                 "1x aimant 6x3",
@@ -108,24 +108,24 @@ export default {
                 "2x M3x8mm SHCS"
             ]
         },
-        "box_turtle_calibration_sub_assemblies": {
-            "title": "Sous-assemblages",
-            "description": "Déposez la gâchette dans les rainures supérieures du corps.",
-            "parts": []
+        box_turtle_calibration_step7: {
+            title: "Sous-assemblages",
+            description: "Déposez la gâchette dans les rainures supérieures du corps.",
+            parts: []
         },
-        "box_turtle_calibration_turtle_box_install": {
-            "title": "Installation Turtle Box",
-            "description": "Insérez les deux languettes supérieures de la Turtle Box dans le corps puis appuyez pour l'enclencher.",
-            "parts": [
+        box_turtle_calibration_step8: {
+            title: "Installation Turtle Box",
+            description: "Insérez les deux languettes supérieures de la Turtle Box dans le corps puis appuyez pour l'enclencher.",
+            parts: [
                 "[a]_turtle_box.stl"
             ]
         },
-        "box_turtle_calibration_final": {
-            "title": "Final",
-            "description": "Vérifiez que le mouvement de la gâchette est fluide et qu'elle se ferme lorsqu'elle est relâchée.",
-            "parts": [
+        box_turtle_calibration_step9: {
+            title: "Final",
+            description: "Vérifiez que le mouvement de la gâchette est fluide et qu'elle se ferme lorsqu'elle est relâchée.",
+            parts: [
                 "[a]_turtle_box_retainer.stl"
             ]
         }
-    }
+    },
 }

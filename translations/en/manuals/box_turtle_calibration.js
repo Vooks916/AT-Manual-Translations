@@ -1,20 +1,20 @@
 export default {
-  "name": "BoxTurtle Calibration Manual",
-  "subManuals": {},
-    "steps": {
-        "box_turtle_calibration_boxturtle_calibration_fidget": {
-            "title": "BoxTurtle Calibration Fidget",
-            "description": "This is a calibration print to test your slicer settings when building the BoxTurtle Automated Filament Controller and doubles as a cool fidget toy when you're done!",
-            "parts": []
+    name: "BoxTurtle Calibration Manual",
+    subManuals: {},
+    steps: {
+        box_turtle_calibration_step1: {
+            title: "BoxTurtle Calibration Fidget",
+            description: "This is a calibration print to test your slicer settings when building the BoxTurtle Automated Filament Controller and doubles as a cool fidget toy when you're done!",
+            parts: []
         },
-        "box_turtle_calibration_step2": {
-            "title": "",
-            "content": `
+        box_turtle_calibration_step2: {
+            title: "",
+            content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
                     <p>These are the print settings we recommend you follow in order to have the best chance at success with your parts.</p>
                 </div>
-
+    
                 <div class="print-settings">
                     <div class="print-setting">
                         <h4>3D PRINTING PROCESS</h4>
@@ -42,11 +42,11 @@ export default {
                     </div>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "box_turtle_calibration_step3": {
-            "title": "",
-            "content": `
+        box_turtle_calibration_step3: {
+            title: "",
+            content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
                     <p>By this time you should have already downloaded the STL files from <a href="https://www.printables.com/model/1004303-box-turtle-calibration-fidget" target="_blank">Printables</a>. This is how to use our naming convention.</p>
@@ -78,29 +78,29 @@ export default {
                     <p>If you need assistance with your build, we’re here to help. Head on over to our <a href="https://discord.gg/AaVHfeYgw2" target="_blank">Discord Server</a> and post your questions. This is our primary medium to get help and we have a great community that can assist you if you get stuck.</p>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "box_turtle_calibration_support_removal": {
-            "title": "Support Removal",
-            "description": "Make sure you can easily remove the rear and front supports on the body as well as the supports on the turtle_box_retainer.",
-            "parts": [
+        box_turtle_calibration_step4: {
+            title: "Support Removal",
+            description: "Make sure you can easily remove the rear and front supports on the body as well as the supports on the turtle_box_retainer.",
+            parts: [
                 "body.stl",
                 "turtle_box_retainer.stl"
             ]
         },
-        "box_turtle_calibration_test_body_assembly": {
-            "title": "Test Body Assembly",
-            "description": "Test fit the magnet, ECAS connector, and MR148ZZ bearing. The ECAS should be a tight fit. If the magnet is a little loose use some super glue.",
-            "parts": [
+        box_turtle_calibration_step5: {
+            title: "Test Body Assembly",
+            description: "Test fit the magnet, ECAS connector, and MR148ZZ bearing. The ECAS should be a tight fit. If the magnet is a little loose use some super glue.",
+            parts: [
                 "1x 6x3 magnet",
                 "1x ECAS connector with rear rubber bumper removed",
                 "1x MR148ZZ bearing"
             ]
         },
-        "box_turtle_calibration_trigger_assembly": {
-            "title": "Trigger Assembly",
-            "description": "Leave about 3.5mm of space between the trigger and the screw heads.",
-            "parts": [
+        box_turtle_calibration_step6: {
+            title: "Trigger Assembly",
+            description: "Leave about 3.5mm of space between the trigger and the screw heads.",
+            parts: [
                 "trigger.stl",
                 "feeder.stl",
                 "1x 6x3 magnet",
@@ -108,24 +108,24 @@ export default {
                 "2x M3x8mm SHCS"
             ]
         },
-        "box_turtle_calibration_sub_assemblies": {
-            "title": "Sub Assemblies",
-            "description": "Drop the trigger into the top grooves on the body.",
-            "parts": []
+        box_turtle_calibration_step7: {
+            title: "Sub Assemblies",
+            description: "Drop the trigger into the top grooves on the body.",
+            parts: []
         },
-        "box_turtle_calibration_turtle_box_install": {
-            "title": "Turtle Box Install",
-            "description": "Insert the two upper tabs of the turtle box into the body then press down to snap it in.",
-            "parts": [
+        box_turtle_calibration_step8: {
+            title: "Turtle Box Install",
+            description: "Insert the two upper tabs of the turtle box into the body then press down to snap it in.",
+            parts: [
                 "[a]_turtle_box.stl"
             ]
         },
-        "box_turtle_calibration_final": {
-            "title": "Final",
-            "description": "Check that you have a smooth movement of the trigger and it snaps shut when it's released.",
-            "parts": [
+        box_turtle_calibration_step9: {
+            title: "Final",
+            description: "Check that you have a smooth movement of the trigger and it snaps shut when it's released.",
+            parts: [
                 "[a]_turtle_box_retainer.stl"
             ]
         }
-    }
+    },
 }

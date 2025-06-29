@@ -1,22 +1,22 @@
 export default {
-    "name": "TurtleNeck Manual",
-    "subManuals": {},
-    "steps": {
-        "turtleneck_turtleneck": {
-            "title": "TurtleNeck",
-            "description": `
+    name: "TurtleNeck Manual",
+    subManuals: {},
+    steps: {
+        turtleneck_step1: {
+            title: "TurtleNeck",
+            description: `
                 <p>TurtleNeck is a simple toolhead buffer used for syncing two extruder motors together. It features an endstop at each end of travel (advance and trailing). These sensors are triggered 2.5mm before hard stopping the buffer with 25mm of travel in between.</p>
             `,
-            "parts": []
+            parts: []
         },
-        "turtleneck_step2": {
-            "title": "",
-            "content": `
+        turtleneck_step2: {
+            title: "",
+            content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
                     <p>These are the print settings we recommend you follow in order to have the best chance at success with your parts.</p>
                 </div>
-
+    
                 <div class="print-settings">
                     <div class="print-setting">
                         <h4>3D PRINTING PROCESS</h4>
@@ -44,11 +44,11 @@ export default {
                     </div>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "turtleneck_step3": {
-            "title": "",
-            "content": `
+        turtleneck_step3: {
+            title: "",
+            content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
                     <p>By this time you should have already downloaded the STL files from <a href="https://github.com/ArmoredTurtle/TurtleNeck" target="_blank">GitHub</a>. This is how to use our naming convention.</p>
@@ -80,35 +80,35 @@ export default {
                     <p>If you need assistance with your build, we’re here to help. Head on over to our <a href="https://discord.gg/AaVHfeYgw2" target="_blank">Discord Server</a> and post your questions. This is our primary medium to get help and we have a great community that can assist you if you get stuck.</p>
                 </div>
             `,
-            "parts": []
+            parts: []
         },
-        "turtleneck_heatset_inserts": {
-            "title": "Heatset Inserts",
-            "description": `
+        turtleneck_step4: {
+            title: "Heatset Inserts",
+            description: `
                 <p>Install four heatset inserts as shown.</p>
                 <p><strong>Note:</strong> Be sure to choose a temperature appropriate for your selected printed parts material. Be careful! Hot things are hot...</p>
                 <p><strong>Note:</strong> This is the last step of this section that will require installing heatsets. Be sure to turn off your soldering iron and set it somewhere safe.</p>
             `,
-            "parts": [
+            parts: [
                 "lid.stl",
                 "4x M3 heatset inserts"
             ]
         },
-        "turtleneck_ecas_fittings": {
-            "title": "ECAS Fittings",
-            "description": `
+        turtleneck_step5: {
+            title: "ECAS Fittings",
+            description: `
                 <p>Insert the ECAS04 fittings as shown</p>
                 <p><strong>Note:</strong> These are meant to be tight, you can lay them flat on the table and press the printed parts onto them.</p>
             `,
-            "parts": [
+            parts: [
                 "[a]_slide.stl",
                 "frame.stl",
                 "2x ECAS04 bowden couplers with rear rubber bumper removed"
             ]
         },
-        "turtleneck_microswitches": {
-            "title": "Microswitches",
-            "description": `
+        turtleneck_step6: {
+            title: "Microswitches",
+            description: `
                 <p>Minding orientation of the levers on the microswitches, install with four M2x10 self tapping screws as shown. Be mindful these are threaded directly into plastic.</p>
                 <p>Confused which switch is which? Here is a <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/AFC_buffer.md" target="_blank">document</a> to help you understand the buffer and it’s functions</p>
                 <div class='tn-switches-key'>
@@ -117,35 +117,35 @@ export default {
                     <p class='trailing'>Trailing</p>
                 </div>
             `,
-            "parts": [
+            parts: [
                 "4x M2x10 self tapping screws",
                 "2x D2F microswitches"
             ]
         },
-        "turtleneck_slide": {
-            "title": "Slide",
-            "description": `
+        turtleneck_step7: {
+            title: "Slide",
+            description: `
                 <p>Place the slide into the lid as shown.</p>
             `,
-            "parts": []
+            parts: []
         },
-        "turtleneck_sandwich": {
-            "title": "Sandwich",
-            "description": `
+        turtleneck_step8: {
+            title: "Sandwich",
+            description: `
                 <p>Install the frame to the lid with the slide correctly positioned with four M3x8 SHCS screws.</p>
                 <p>Make sure the slide moves freely after everything is secured.</p>
             `,
-            "parts": [
+            parts: [
                 "4x M3x8 SHCS"
             ]
         },
-        "turtleneck_bowden_tube": {
-            "title": "Bowden Tube",
-            "description": `
+        turtleneck_step9: {
+            title: "Bowden Tube",
+            description: `
                 <p>Insert the bowden tube from your AFC all the way through your TN as shown.</p>
                 <p><strong>Note:</strong> it should stop just short of pushing the "Slide" outwards from the main body.</p>
             `,
-            "parts": []
+            parts: []
         }
-    }
+    },
 }
