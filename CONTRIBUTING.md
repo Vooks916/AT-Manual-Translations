@@ -1,12 +1,10 @@
-## 📄 `CONTRIBUTING.md`
-
-# 🤝 Contributing to Armored Turtle Manual Translations
+# Contributing to Armored Turtle Manual Translations
 
 Thanks for your interest in helping translate Armored Turtle's interactive manuals! This guide will help you get started with contributing.
 
 ---
 
-## 🧭 Overview
+## Overview
 
 This repository holds all translation files for the manuals on [armoredturtle.xyz](https://armoredturtle.xyz). You can help by:
 
@@ -16,7 +14,7 @@ This repository holds all translation files for the manuals on [armoredturtle.xy
 
 ---
 
-## 🛠 How to Contribute
+## How to Contribute
 
 ### 1. Fork the Repo
 
@@ -46,11 +44,11 @@ Use this structure for each translation file:
 export default {
   name: "Translated Manual Name",
   subManuals: {
-    "sub-manual-id": {
+    sub-manual-id: {
       name: "Sub manual name"
   },
   steps: {
-    "step-id": {
+    step-id: {
       title: "Translated Title",
       content: `
         <p>Translated description of this step in HTML formatting</p>
@@ -67,14 +65,14 @@ export default {
 
 **Tips:**
 
-* Keep `step-id` keys unchanged.
+* Keep `step-id` and `sub-manual-id` keys unchanged.
 * Use proper grammar, but keep instructions short and direct.
 * Try to match the tone of the original.
 * Retain formatting, such as **bold**, *italics*, and line breaks (`\n`).
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Currently there is no way to preview how your translation will appear on the site. To ensure compatibility, be sure:
 
@@ -102,7 +100,7 @@ Use our pull request template and fill out all sections before submitting.
 
 ---
 
-## 📬 Contact
+## Contact
 
 Need help?
 
@@ -111,6 +109,6 @@ Need help?
 
 ---
 
-## ❤️ Thank You!
+## Thank You!
 
 Your contributions help us make high-quality manuals accessible worldwide. We appreciate your help! 🐢
