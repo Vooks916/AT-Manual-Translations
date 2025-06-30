@@ -1,4 +1,4 @@
-# 🧩 Armored Turtle Manual Translations
+# Armored Turtle Manual Translations
 
 Welcome to the official translations repository for [Armored Turtle's interactive 3D manuals](https://armoredturtle.xyz)!
 
@@ -6,9 +6,9 @@ This repo allows community members to contribute translations for our build manu
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-Translations are organized by language code (e.g., `en`, `es`, `fr`) and manual name:
+Translations are organized by [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) (e.g., `en`, `de`, `fr`) and manual name:
 
 ```
 
@@ -45,11 +45,11 @@ Each javascript file corresponds to one manual and uses the following format:
 export default {
   name: "Translated Manual Name",
   subManuals: {
-    "sub-manual-id": {
+    sub-manual-id: {
       name: "Sub manual name"
   },
   steps: {
-    "step-id": {
+    step-id: {
       title: "Translated Title",
       content: `
         <p>Translated description of this step in HTML formatting</p>
@@ -66,7 +66,7 @@ export default {
 
 ---
 
-## 🚀 How to Contribute
+## How to Contribute
 
 We welcome and appreciate contributions from the community! 
 
