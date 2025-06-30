@@ -30,7 +30,7 @@ export default {
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
                     <p>This manual will walk you through the process of preparing for and assembling a BoxTurtle AFC by Armored Turtle. The introduction provides an overview of how to use this manual, along with guidance on the key decisions you'll need to make before printing your parts.</p>
-                    <p class='extra-space'>Before beginning, please take note of a few <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/ERRATA.md" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
+                    <p class='extra-space'>Before beginning, please take note of a few <a href="/docs/boxturtle/errata.html" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
                 </div>
             `,
             parts: []
@@ -270,7 +270,7 @@ export default {
             description: `
                 <p>Setzen Sie ein MR63ZZ-Lager ein und setzen Sie anschließend wie gezeigt einen D2HW-Mikroschalter ein. Mit einer M3x10 SHCS-Schraube befestigen.</p>
                 <p>Achten Sie darauf, diese Schraube nicht zu fest anzuziehen, sie ist in Kunststoff eingeschraubt.</p>
-                <p>Ensure your <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/D2HW-C201H.png" target="_blank">switch is wired</a> before installation. Refer to the <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/BoxTurtle_Wiring.md" target="_blank">wiring guide</a> to determine which lengths to use.</p>
+                <p>Ensure your <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/D2HW-C201H.png" target="_blank">switch is wired</a> before installation. Refer to the <a href="/docs/boxturtle/wiring-guide.html" target="_blank">wiring guide</a> to determine which lengths to use.</p>
                 <p><strong>Notiz:</strong> Jetzt ist es an der Zeit, SICHER zu sein, dass Ihre Filamentwege frei und frei sind. Möglicherweise stellen Sie fest, dass ein 2-mm-Bohrer <i>von Hand</i> Problembereiche reinigen kann, wenn Sie einen haben.</p>
             `,
             parts: [
@@ -476,7 +476,7 @@ export default {
             title: "D2HW Mikroschalter",
             description: `
                 <p>Setzen Sie das Lager in die Öffnung ein und achten Sie darauf, dass es frei beweglich ist. Drücken Sie den Mikroschalter anschließend vorsichtig dahinter.</p>
-                <p>Ensure your <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/D2HW-C201H.png" target="_blank">switches are wired</a> before installation. Refer to the <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/BoxTurtle_Wiring.md" target="_blank">wiring guide</a> to determine which lengths to use.</p>
+                <p>Ensure your <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/D2HW-C201H.png" target="_blank">switches are wired</a> before installation. Refer to the <a href="/docs/boxturtle/wiring-guide.html" target="_blank">wiring guide</a> to determine which lengths to use.</p>
                 <p><strong>Note:</strong> Now is the time to be SURE that your filament pathways are clear and unobstructed. You may find that a 2mm drill bit <i>by hand</i> can clean up trouble areas if you have them.</p>
             `,
             parts: [
@@ -590,7 +590,7 @@ export default {
             title: "Schrittmotor",
             description: `
                 <p>Setzen Sie den Schrittmotor auf das Extruder-Gehäuse. Befestigen Sie ihn mit zwei M3x8 Zylinderschrauben (SHCS). Vergessen Sie dabei nicht die M3-Unterlegscheibe auf der einstellbaren Seite (Langloch), wie gezeigt.</p>
-                <p>Refer to the <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/BoxTurtle_Wiring.md" target="_blank">wiring guide</a> to determine which lengths to use. The relative lengths of the stepper motor wires should match those of your microswitch.</p>
+                <p>Refer to the <a href="/docs/boxturtle/wiring-guide.html" target="_blank">wiring guide</a> to determine which lengths to use. The relative lengths of the stepper motor wires should match those of your microswitch.</p>
                 <p><strong>Hinweis:</strong> Der blaue Pfeil bedeutet, dass diese Schraube noch nicht vollständig angezogen werden soll, wie in der Einleitung erwähnt.</p>
             `,
             parts: [
@@ -991,7 +991,7 @@ export default {
             title: "Microswitches",
             description: `
                 <p>Minding orientation of the levers on the microswitches, install with four M2x10 self tapping screws as shown. Be mindful these are threaded directly into plastic.</p>
-                <p>Confused which switch is which? Here is a <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/AFC_buffer.md" target="_blank">document</a> to help you understand the buffer and it’s functions</p>
+                <p>Confused which switch is which? Here is a <a href="/docs/afc-klipper-add-on/installation/buffer-overview.html" target="_blank">document</a> to help you understand the buffer and it’s functions</p>
                 <div class='tn-switches-key'>
                     <strong>KEY:</strong>
                     <p class='advance'>Advance</p>
@@ -1358,7 +1358,7 @@ export default {
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_27_TN_Wiring.jpg" alt="Wiring Guide">
                     <p>Dieses Bild zeigt die Anschlüsse, in die die Schalter des Buffers eingesteckt werden müssen, um der Standard-AFC-Klipper-Konfiguration für die BoxTurtle zu entsprechen. Die Kabel für den Puffer können durch das untere Loch im rechten hinteren Skirt geführt werden, wenn sie nicht mit dem Board des Druckers verbunden werden.</p>
-                    <p>Sind Sie unsicher, welcher Stecker wofür ist? Hier ist ein <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/AFC_buffer.md" target="_blank">Dokument</a> das Ihnen hilft, den Buffer und seine Funktionen zu verstehen.</p>
+                    <p>Sind Sie unsicher, welcher Stecker wofür ist? Hier ist ein <a href="/docs/afc-klipper-add-on/installation/buffer-overview.html" target="_blank">Dokument</a> das Ihnen hilft, den Buffer und seine Funktionen zu verstehen.</p>
                 </div>
             `,
             parts: []
@@ -1455,7 +1455,7 @@ export default {
             content: `
                 <div class="infoL">
                     <h3>*PANIK*</h3>                            <p>Bevor die letzten Verkleidungen an der BoxTurtle installiert werden, sollten Sie sie mit dem Drucker verbinden und die Funktionalität aller Komponenten überprüfen.</p>
-                    <p class='extra-space'>Die Anleitung für die Erstinbetriebnahme, die alles enthält, was Sie wissen müssen, um Ihre BoxTurtle zum Laufen zu bringen, finden Sie <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/Initial_Startup.md" target="_blank">hier</a>.</p>
+                    <p class='extra-space'>Die Anleitung für die Erstinbetriebnahme, die alles enthält, was Sie wissen müssen, um Ihre BoxTurtle zum Laufen zu bringen, finden Sie <a href="/docs/boxturtle/initial_startup/01-overview.html" target="_blank">hier</a>.</p>
                     <div class='info-submanual-nav-buttons'>
                         <button onclick="location.href='manual-sections.html?manual=boxturtle'">BoxTurtle Menü</button>
                         <button onclick="location.href='manual.html?manual=boxturtle&subManual=final'">Nächster Abschnitt</button>

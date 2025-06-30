@@ -30,7 +30,7 @@ export default {
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
                     <p>This manual will walk you through the process of preparing for and assembling a BoxTurtle AFC by Armored Turtle. The introduction provides an overview of how to use this manual, along with guidance on the key decisions you'll need to make before printing your parts.</p>
-                    <p class='extra-space'>Before beginning, please take note of a few <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/ERRATA.md" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
+                    <p class='extra-space'>Before beginning, please take note of a few <a href="/docs/boxturtle/errata.html" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
                 </div>
             `,
             parts: []
@@ -270,7 +270,7 @@ export default {
             description: `
                 <p>Insérez un roulement MR63ZZ suivi du micro-interrupteur D2HW comme indiqué. Fixez avec une vis SHCS M3x10.</p>
                 <p>Attention à ne pas trop serrer cette vis, elle est filetée directement dans le plastique.</p>
-                <p>Ensure your <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/D2HW-C201H.png" target="_blank">switch is wired</a> before installation. Refer to the <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/BoxTurtle_Wiring.md" target="_blank">wiring guide</a> to determine which lengths to use.</p>
+                <p>Ensure your <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/D2HW-C201H.png" target="_blank">switch is wired</a> before installation. Refer to the <a href="/docs/boxturtle/wiring-guide.html" target="_blank">wiring guide</a> to determine which lengths to use.</p>
                 <p><strong>Note:</strong> Il est maintenant temps de s'ASSURER que vos chemins de filaments sont fluides et dégagés. Vous constaterez qu’un foret de 2 mm utilisé <i>manuellement</i> peut nettoyer les zones à problèmes si vous en avez.</p>
             `,
             parts: [
@@ -590,7 +590,7 @@ export default {
             title: "Moteur pas à pas",
             description: `
                 <p>Placez le moteur pas à pas sur le boîtier de l'extrudeur. Fixez avec des vis SHCS M3x8. Ne pas oublier la rondelle M3 du côté réglable comme indiqué.</p>
-                <p>Refer to the <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/BT_Wiring/BoxTurtle_Wiring.md" target="_blank">wiring guide</a> to determine which lengths to use. The relative lengths of the stepper motor wires should match those of your microswitch.</p>
+                <p>Refer to the <a href="/docs/boxturtle/wiring-guide.html" target="_blank">wiring guide</a> to determine which lengths to use. The relative lengths of the stepper motor wires should match those of your microswitch.</p>
                 <p><strong>Note:</strong> La flèche bleue indique de ne pas serrer complètement cette vis à ce moment-là comme indiqué en introduction.</p>
             `,
             parts: [
@@ -991,7 +991,7 @@ export default {
             title: "Micro-interrupteurs",
             description: `
                 <p>En tenant compte de l'orientation des leviers sur les micro-interrupteurs, installez-les avec quatre vis autotaraudeuses M2x10 comme illustré. N'oubliez pas qu'ils sont vissés directement dans le plastique.</p>
-                <p>Confused which switch is which? Here is a <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/AFC_buffer.md" target="_blank">document</a> to help you understand the buffer and it’s functions</p>
+                <p>Confused which switch is which? Here is a <a href="/docs/afc-klipper-add-on/installation/buffer-overview.html" target="_blank">document</a> to help you understand the buffer and it’s functions</p>
                 <div class='tn-switches-key'>
                     <strong>KEY:</strong>
                     <p class='advance'>Advance</p>
@@ -1358,7 +1358,7 @@ export default {
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_27_TN_Wiring.jpg" alt="Wiring Guide">
                     <p>Les connexions à établir pour le tampon TN correspondant à la configuration Klipper par défaut du module AFC sont indiquées. Les fils du tampon peuvent être passés par le trou inférieur de la jupe arrière droite si vous choisissez de ne pas de connecter à la carte principale de l'imprimante.</p>
-                    <p>Vous ne savez pas quelle prise est laquelle? Voici un <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On/blob/main/docs/AFC_buffer.md" target="_blank">document</a> pour vous aider à comprendre le tampon et ses fonctions.</p>
+                    <p>Vous ne savez pas quelle prise est laquelle? Voici un <a href="/docs/afc-klipper-add-on/installation/buffer-overview.html" target="_blank">document</a> pour vous aider à comprendre le tampon et ses fonctions.</p>
                 </div>
             `,
             parts: []
@@ -1455,7 +1455,7 @@ export default {
             content: `
                 <div class="infoL">
                     <h3>*PANIQUE*</h3>                    <p>Avant d'installer l'habillage final sur la BoxTurtle, c'est le bon moment de la connecter à l'imprimante et vérifier la fonctionnalité de tous les composants.</p>
-                    <p class='extra-space'>Le module Klipper pour l'AFC ainsi que la documentation et les instructions d'installation peuvent être trouvés <a href="https://github.com/ArmoredTurtle/BoxTurtle/blob/main/Initial_Startup.md" target="_blank">ici</a>.</p>
+                    <p class='extra-space'>Le module Klipper pour l'AFC ainsi que la documentation et les instructions d'installation peuvent être trouvés <a href="/docs/boxturtle/initial_startup/01-overview.html" target="_blank">ici</a>.</p>
                     <div class='info-submanual-nav-buttons'>
                         <button onclick="location.href='manual-sections.html?manual=boxturtle'">Menu BoxTurtle</button>
                         <button onclick="location.href='manual.html?manual=boxturtle&subManual=final'">Section suivante</button>
