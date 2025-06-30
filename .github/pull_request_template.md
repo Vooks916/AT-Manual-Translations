@@ -1,12 +1,12 @@
-### 🌍 Translation Summary
+### Translation Summary
 
 <!-- Example: Added Spanish translation for "example-manual" -->
 
-### 🛠 Files Changed
+### Files Changed
 
 - [ ] translations/\<language\>/manuals/\<manual-name\>.js
 
-### ✅ Checklist
+### Checklist
 
 - [ ] I followed the manual file structure and naming conventions
 - [ ] I ensured all translated files are the same length as the original English files
@@ -16,4 +16,4 @@
 
 ---
 
-Thanks for contributing to Armored Turtle! 🐢💪
+Thanks for contributing to Armored Turtle! 🐢
