@@ -77,3 +77,37 @@ If you'd like to help translate or improve a manual:
 3. Submit a pull request
 
 For step-by-step instructions, check out our [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+### Maintainer note: syncing translations from the website repo (Windows)
+
+This is a personal workflow for maintainers who also have the sibling repo `ArmoredTurtleWebsite`. Most contributors can ignore this section.
+
+Assuming both repos are siblings under the same parent directory:
+
+```
+<parent>/ArmoredTurtleWebsite
+<parent>/AT-Manual-Translations (this repo)
+```
+
+Run the sync script to copy `ArmoredTurtleWebsite/public/translations` into this repo’s `translations`:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\sync-translations.ps1
+```
+
+Optional flags:
+
+- **-Clean**: empties this repo’s `translations` folder before copying
+- **-WebsitePath <path>**: override the default sibling location of `ArmoredTurtleWebsite`
+
+Examples:
+
+```powershell
+# Clean sync from sibling repo
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\sync-translations.ps1 -Clean
+
+# Sync from a custom website path
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\sync-translations.ps1 -WebsitePath "C:\\dev\\ArmoredTurtleWebsite"
+```
