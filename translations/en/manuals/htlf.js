@@ -16,7 +16,7 @@ export default {
     },
     steps: {
         htlf_introduction_step1: {
-            title: "",
+            title: "Introduction",
             content: `
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
@@ -35,7 +35,7 @@ export default {
             parts: []
         },
         htlf_introduction_step3: {
-            title: "",
+            title: "Printed Parts Note",
             content: `
                 <div class="infoL">
                     <h3>PRINTED PARTS NOTE</h3>
@@ -46,7 +46,7 @@ export default {
             parts: []
         },
         htlf_introduction_step4: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -86,7 +86,7 @@ export default {
             parts: []
         },
         htlf_introduction_step5: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
@@ -121,7 +121,7 @@ export default {
             parts: []
         },
         htlf_introduction_step6: {
-            title: "",
+            title: "ECAS-04 Note",
             content: `
                 <div class="infoL">
                     <h3>ECAS-04 (the worst part)</h3>
@@ -134,7 +134,7 @@ export default {
             parts: []
         },
         htlf_introduction_step7: {
-            title: "",
+            title: "Assembly Cues",
             content: `
                 <div class="infoL">
                     <h3>ASSEMBLY CUES</h3>
@@ -151,7 +151,7 @@ export default {
             parts: []
         },
         htlf_introduction_step8: {
-            title: "",
+            title: "Common Links",
             content: `
                 <div class="info">
                     <h3>COMMON LINKS</h3>
@@ -249,12 +249,15 @@ export default {
         htlf_preparation_step7: {
             title: "Depressors",
             description: `
-                <p>After removing the print-in-place supports from the depressor bodies, install a bmg idler with a 3x20mm pin as shown. Mind the orientation. The holes on this part have different clearances to aid in easy assembly.</p>
+                <p>Assemble the idler by placing 2 needle bearings in the idler gear.</p>
+                <p><strong>Note:</strong> Now is the time to lubricate the needle bearings.</p>
+                <p>After removing the print-in-place supports from the depressor bodies, install the bmg idler with a 3x20mm pin as shown. Mind the orientation. The holes on this part have different clearances to aid in easy assembly.</p>
                 <p>Insert a 6x3mm magnet as shown in an orientation that <strong>REPELS</strong> the depressor from the e_body. A drop of CA glue may be used to retain these magnets if needed.</p>
             `,
             parts: [
                 "4x [a]_depressor_x4.stl",
                 "4x BMG Idler",
+                "8x needle bearings",
                 "4x 2x20mm pin",
                 "4x 6x3 magnet"
             ]

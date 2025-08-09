@@ -20,7 +20,7 @@ export default {
             parts: []
         },
         bte_preparation_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -58,7 +58,7 @@ export default {
             parts: []
         },
         bte_preparation_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
@@ -94,7 +94,7 @@ export default {
             parts: []
         },
         bte_preparation_step4: {
-            title: "",
+            title: "Left-Swing Disclaimer",
             content: `
                 <div class="infoL">
                     <h3>Left-Swing Disclaimer</h3>

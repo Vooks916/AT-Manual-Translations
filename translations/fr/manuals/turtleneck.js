@@ -3,6 +3,7 @@ export default {
     subManuals: {},
     steps: {
         turtleneck_step1: {
+            sectionName: "Introduction",
             title: "TurtleNeck",
             description: `
                 <p>TurtleNeck est un tampon de tête d'impression simple utilisé pour synchroniser deux moteurs d'extrudeur ensemble. Il comporte un interrupteur de fin de course à chaque butée de déplacement (avance et fuite). Ces capteurs se déclenchent 2,5 mm avant l'arrêt matériel du tampon avec une course de 25 mm entre les deux.</p>
@@ -10,7 +11,7 @@ export default {
             parts: []
         },
         turtleneck_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>RECOMMANDATION D'IMPRESSION DES PIECES</h3>
@@ -47,7 +48,7 @@ export default {
             parts: []
         },
         turtleneck_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>DÉNOMINATION DES FICHIERS</h3>
@@ -83,6 +84,7 @@ export default {
             parts: []
         },
         turtleneck_step4: {
+            sectionName: "Assembly",
             title: "Inserts filetés",
             description: `
                 <p>Installez quatre inserts filetés comme illustré.</p>

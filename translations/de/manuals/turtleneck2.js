@@ -3,6 +3,7 @@ export default {
     subManuals: {},
     steps: {
         turtleneck2_step1: {
+            sectionName: "Introduction",
             title: "TurtleNeck 2.0",
             description: `
                 <p>TurtleNeck 2.0 (TN2) ist ein Werkzeugkopf-Puffer für Klipper-Drucker, der für die Verwendung mit dem <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On" target="_blank">AFC Klipper Add-on</a> entwickelt wurde. Er nutzt ein STM32G0B1 MCU über USB-C zur Steuerung, was ihn zu einer Ein-Kabel-Erweiterung für Ihre Klipper-Maschine macht.</p>
@@ -12,7 +13,7 @@ export default {
             parts: []
         },
         turtleneck2_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>RICHTLINIEN FÜR GEDRUCKTE BAUTEILE</h3>
@@ -49,7 +50,7 @@ export default {
             parts: []
         },
         turtleneck2_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>DATEINAMEN</h3>
@@ -85,6 +86,7 @@ export default {
             parts: []
         },
         turtleneck2_step4: {
+            sectionName: "Assembly",
             title: "Bauteile vorbereiten",
             description: `
                 <p>Schmelzen Sie die Gewindeeinsätze ein, wie hier dargestellt.</p>
@@ -118,7 +120,7 @@ export default {
             ]
         },
         turtleneck2_step7: {
-            title: "",
+            title: "Board Flashing",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -184,7 +186,7 @@ export default {
             ]
         },
         turtleneck2_step13: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">

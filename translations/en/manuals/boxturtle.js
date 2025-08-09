@@ -25,7 +25,7 @@ export default {
     },
     steps: {
         boxturtle_introduction_step1: {
-            title: "",
+            title: "Introduction",
             content: `
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
@@ -53,7 +53,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step4: {
-            title: "",
+            title: "Part Selection",
             content: `
                 <div class="infoL">
                     <h3>PART SELECTION</h3>
@@ -79,7 +79,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step5: {
-            title: "",
+            title: "Printed Parts Note",
             content: `
                 <div class="infoL">
                     <h3>PRINTED PARTS NOTE</h3>
@@ -90,7 +90,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step6: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -130,7 +130,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step7: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
@@ -166,7 +166,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step8: {
-            title: "",
+            title: "ECAS-04 Note",
             content: `
                 <div class="infoL">
                     <h3>ECAS-04 (the worst part)</h3>
@@ -179,7 +179,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step9: {
-            title: "",
+            title: "Assembly Cues",
             content: `
                 <div class="infoL">
                     <h3>ASSEMBLY CUES</h3>
@@ -196,7 +196,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step10: {
-            title: "",
+            title: "Common Links",
             content: `
                 <div class="info">
                     <h3>COMMON LINKS</h3>
@@ -622,7 +622,7 @@ export default {
             parts: []
         },
         boxturtle_respoolers_step1: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -876,7 +876,7 @@ export default {
             ]
         },
         boxturtle_respoolers_step24: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -901,7 +901,7 @@ export default {
             parts: []
         },
         boxturtle_respoolers_step27: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -1025,7 +1025,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step1: {
-            title: "",
+            title: "Initial Note",
             content: `
                 <div class="infoL">
                     <h3>BEFORE WE CONTINUE...</h3>
@@ -1079,7 +1079,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step6: {
-            title: "",
+            title: "Flashing AFC-Lite",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -1102,6 +1102,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step8: {
+            sectionName: "Lane 4",
             title: "Lane 4 Spooler",
             description: `
                 <p>Identify the spooler with the lane 4 N20 lead (~515mm) and slot it into the lane 4 tray as shown. There are tabs protruding from the front of the spooler that slot into the extrusion. Insert those and then rock the spooler into the tray.</p>
@@ -1155,7 +1156,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step13: {
-            title: "",
+            title: "Lane 4 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_10_Lane_4_Wiring.jpg" alt="Wiring Guide">
@@ -1165,6 +1166,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step14: {
+            sectionName: "Lane 3",
             title: "Lane 3 Spooler",
             description: `
                 <p>Identify the spooler with the lane 3 N20 lead (~415mm) and slot it into the lane 3 tray as shown. There are tabs protruding from the front of the spooler that slot into the extrusion. Insert those and then rock the spooler into the tray.</p>
@@ -1217,11 +1219,11 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step19: {
-            title: "",
+            title: "Lane 3 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_15_Lane_3_Wiring.jpg" alt="Wiring Guide">
-                    <p>The image shows the ports to install each lane 4 module plug into to match the default AFC Klipper add on config for BoxTurtle.</p> 
+                    <p>The image shows the ports to install each lane 3 module plug into to match the default AFC Klipper add on config for BoxTurtle.</p> 
                 </div>
             `,
             parts: []
@@ -1234,7 +1236,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step21: {
-            title: "",
+            title: "Hub Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_17_Hub_Wiring.jpg" alt="Wiring Guide">
@@ -1244,6 +1246,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step22: {
+            sectionName: "Lane 2",
             title: "Lane 2 Spooler",
             description: `
                 <p>Identify the spooler with the lane 2 N20 lead (~315mm) and slot it into the lane 2 tray as shown. There are tabs protruding from the front of the spooler that slot into the extrusion. Insert those and then rock the spooler into the tray.</p>
@@ -1296,7 +1299,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step27: {
-            title: "",
+            title: "Lane 2 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_22_Lane_2_Wiring.jpg" alt="Wiring Guide">
@@ -1306,6 +1309,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step28: {
+            sectionName: "Lane 1",
             title: "Lane 1 Spooler ",
             description: `
                 <p>Identify the spooler with the lane 1 N20 lead (~205mm) and slot it into the lane 1 tray as shown. There are tabs protruding from the front of the spooler that slot into the extrusion. Insert those and then rock the spooler into the tray.</p>
@@ -1343,7 +1347,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step32: {
-            title: "",
+            title: "Lane 1 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_26_Lane_1_Wiring.jpg" alt="Wiring Guide">
@@ -1353,7 +1357,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step33: {
-            title: "",
+            title: "TN Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_27_TN_Wiring.jpg" alt="Wiring Guide">
@@ -1364,7 +1368,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step34: {
-            title: "",
+            title: "LED Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_28_RGB.jpg" alt="Wiring Guide">
@@ -1451,10 +1455,11 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step42: {
-            title: "",
+            title: "Initial Startup",
             content: `
                 <div class="infoL">
-                    <h3>*PANIK*</h3>                    <p>Before installing the final trim on the BoxTurtle, now is a good time to connect it to the printer and verify functionality of all the components.</p>
+                    <h3>*PANIK*</h3>
+                    <p>Before installing the final trim on the BoxTurtle, now is a good time to connect it to the printer and verify functionality of all the components.</p>
                     <p class='extra-space'>The initial startup guide containing everything you need to know to get your BoxTurtle up and running can be found <a href="/docs/boxturtle/initial_startup/01-overview.html" target="_blank">here</a>.</p>
                     <div class='info-submanual-nav-buttons'>
                         <button onclick="location.href='manual-sections.html?manual=boxturtle'">BoxTurtle Menu</button>
@@ -1518,7 +1523,7 @@ export default {
             parts: []
         },
         boxturtle_final_step6: {
-            title: "",
+            title: "The End",
             content: `
                 <div class="info">
                     <h3>You're Finished!!!</h3>

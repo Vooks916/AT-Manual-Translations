@@ -25,7 +25,7 @@ export default {
     },
     steps: {
         boxturtle_introduction_step1: {
-            title: "",
+            title: "Introduction",
             content: `
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
@@ -53,7 +53,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step4: {
-            title: "",
+            title: "Part Selection",
             content: `
                 <div class="infoL">
                     <h3>PART SELECTION</h3>
@@ -79,7 +79,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step5: {
-            title: "",
+            title: "Printed Parts Note",
             content: `
                 <div class="infoL">
                     <h3>PRINTED PARTS NOTE</h3>
@@ -90,7 +90,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step6: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -130,7 +130,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step7: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
@@ -166,7 +166,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step8: {
-            title: "",
+            title: "ECAS-04 Note",
             content: `
                 <div class="infoL">
                     <h3>ECAS-04 (the worst part)</h3>
@@ -179,7 +179,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step9: {
-            title: "",
+            title: "Assembly Cues",
             content: `
                 <div class="infoL">
                     <h3>ASSEMBLY CUES</h3>
@@ -196,7 +196,7 @@ export default {
             parts: []
         },
         boxturtle_introduction_step10: {
-            title: "",
+            title: "Common Links",
             content: `
                 <div class="info">
                     <h3>COMMON LINKS</h3>
@@ -622,7 +622,7 @@ export default {
             parts: []
         },
         boxturtle_respoolers_step1: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -876,7 +876,7 @@ export default {
             ]
         },
         boxturtle_respoolers_step24: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -901,7 +901,7 @@ export default {
             parts: []
         },
         boxturtle_respoolers_step27: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -1025,7 +1025,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step1: {
-            title: "",
+            title: "Initial Note",
             content: `
                 <div class="infoL">
                     <h3>AVANT DE CONTINUER...</h3>
@@ -1079,7 +1079,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step6: {
-            title: "",
+            title: "Flashing AFC-Lite",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -1102,6 +1102,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step8: {
+            sectionName: "Lane 4",
             title: "Rembobineur voie 4",
             description: `
                 <p>Identifiez le rembobineur avec le fil N20 de la voie 4 (515 mm) et insérez-le dans le plateau de la voie 4 comme indiqué. Il y a des languettes dépassant de l'avant du rembobineur qui s'insèrent dans le profilé. Insérez-les, puis basculez le rembobineur dans le plateau.</p>
@@ -1155,7 +1156,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step13: {
-            title: "",
+            title: "Lane 4 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_10_Lane_4_Wiring.jpg" alt="Wiring Guide">
@@ -1165,6 +1166,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step14: {
+            sectionName: "Lane 3",
             title: "Rembobineur voie 3",
             description: `
                 <p>Identifiez le rembobineur avec le fil N20 de la voie 3 (415 mm) et insérez-le dans le plateau de la voie 3 comme indiqué. Il y a des languettes dépassant de l'avant du rembobineur qui s'insèrent dans le profilé. Insérez-les, puis basculez le rembobineur dans le plateau.</p>
@@ -1217,11 +1219,11 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step19: {
-            title: "",
+            title: "Lane 3 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_15_Lane_3_Wiring.jpg" alt="Wiring Guide">
-                    <p>L'image indique les ports sur lesquels installer chaque module de la voie 4 pour correspondre à la configuration Klipper par défaut de l'AFC pour la BoxTurtle.</p> 
+                    <p>L'image indique les ports sur lesquels installer chaque module de la voie 3 pour correspondre à la configuration Klipper par défaut de l'AFC pour la BoxTurtle.</p> 
                 </div>
             `,
             parts: []
@@ -1234,7 +1236,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step21: {
-            title: "",
+            title: "Hub Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_17_Hub_Wiring.jpg" alt="Wiring Guide">
@@ -1244,6 +1246,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step22: {
+            sectionName: "Lane 2",
             title: "Rembobineur voie 2",
             description: `
                 <p>Identifiez le rembobineur avec le fil N20 de la voie 2 (315 mm) et insérez-le dans le plateau de la voie 2 comme indiqué. Il y a des languettes dépassant de l'avant du rembobineur qui s'insèrent dans le profilé. Insérez-les, puis basculez le rembobineur dans le plateau.</p>
@@ -1296,7 +1299,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step27: {
-            title: "",
+            title: "Lane 2 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_22_Lane_2_Wiring.jpg" alt="Wiring Guide">
@@ -1306,6 +1309,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step28: {
+            sectionName: "Lane 1",
             title: "Rembobineur voie 1",
             description: `
                 <p>Identifiez le rembobineur avec le fil N20 de la voie 1 (205 mm) et insérez-le dans le plateau de la voie 1 comme indiqué. Il y a des languettes dépassant de l'avant du rembobineur qui s'insèrent dans le profilé. Insérez-les, puis basculez le rembobineur dans le plateau.</p>
@@ -1343,7 +1347,7 @@ export default {
             ]
         },
         boxturtle_general_assembly_step32: {
-            title: "",
+            title: "Lane 1 Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_26_Lane_1_Wiring.jpg" alt="Wiring Guide">
@@ -1353,7 +1357,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step33: {
-            title: "",
+            title: "TN Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_27_TN_Wiring.jpg" alt="Wiring Guide">
@@ -1364,7 +1368,7 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step34: {
-            title: "",
+            title: "LED Wiring Guide",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step_28_RGB.jpg" alt="Wiring Guide">
@@ -1451,10 +1455,11 @@ export default {
             parts: []
         },
         boxturtle_general_assembly_step42: {
-            title: "",
+            title: "Initial Startup",
             content: `
                 <div class="infoL">
-                    <h3>*PANIQUE*</h3>                    <p>Avant d'installer l'habillage final sur la BoxTurtle, c'est le bon moment de la connecter à l'imprimante et vérifier la fonctionnalité de tous les composants.</p>
+                    <h3>*PANIQUE*</h3>
+                    <p>Avant d'installer l'habillage final sur la BoxTurtle, c'est le bon moment de la connecter à l'imprimante et vérifier la fonctionnalité de tous les composants.</p>
                     <p class='extra-space'>Le module Klipper pour l'AFC ainsi que la documentation et les instructions d'installation peuvent être trouvés <a href="/docs/boxturtle/initial_startup/01-overview.html" target="_blank">ici</a>.</p>
                     <div class='info-submanual-nav-buttons'>
                         <button onclick="location.href='manual-sections.html?manual=boxturtle'">Menu BoxTurtle</button>
@@ -1518,7 +1523,7 @@ export default {
             parts: []
         },
         boxturtle_final_step6: {
-            title: "",
+            title: "The End",
             content: `
                 <div class="info">
                     <h3>Vous avez terminé!!!</h3>

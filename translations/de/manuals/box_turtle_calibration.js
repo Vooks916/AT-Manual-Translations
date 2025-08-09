@@ -3,12 +3,13 @@ export default {
     subManuals: {},
     steps: {
         box_turtle_calibration_step1: {
+            sectionName: "Introduction",
             title: "BoxTurtle Calibration Fidget",
             description: "Dies ist ein Kalibrierungsdruck, um Ihre Slicer-Einstellungen beim Bau des BoxTurtle Automated Filament Changers zu testen und dient gleichzeitig als cooles Fidget-Spielzeug!",
             parts: []
         },
         box_turtle_calibration_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>RICHTLINIEN FÜR GEDRUCKTE BAUTEILE</h3>
@@ -45,7 +46,7 @@ export default {
             parts: []
         },
         box_turtle_calibration_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>DATEINAMEN</h3>
@@ -81,6 +82,7 @@ export default {
             parts: []
         },
         box_turtle_calibration_step4: {
+            sectionName: "Assembly",
             title: "Stützstrukturen entfernen",
             description: "Achten Sie darauf, dass die vorderen und hinteren Stützen am Gehäuse sowie die Stützen am turtle_box_retainer problemlos entfernt werden können.",
             parts: [

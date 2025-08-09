@@ -8,7 +8,7 @@ export default {
             parts: []
         },
         at_brush_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -45,7 +45,7 @@ export default {
             parts: []
         },
         at_brush_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>

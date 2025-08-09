@@ -3,7 +3,7 @@ export default {
     subManuals: {},
     steps: {
         filamatrix_step1: {
-            title: "",
+            title: "Introduction",
             content: `
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
@@ -13,7 +13,7 @@ export default {
             parts: []
         },
         filamatrix_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -58,7 +58,7 @@ export default {
             parts: []
         },
         filamatrix_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
@@ -156,7 +156,7 @@ export default {
             ]
         },
         filamatrix_step10: {
-            title: "",
+            title: "Microswitch Note",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -267,7 +267,7 @@ export default {
             ]
         },
         filamatrix_step21: {
-            title: "",
+            title: "Skittles Break",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/SkittlesTurtle.png" alt="Skittles Turtle">
@@ -325,7 +325,7 @@ export default {
             ]
         },
         filamatrix_step26: {
-            title: "",
+            title: "Blade Trimming",
             content: `
                 <div class=wiring-guide>
                     <img class=wiring-guide-image src="/images/Step 5 Razor Cut.png" alt="Razor Trimming Guide">

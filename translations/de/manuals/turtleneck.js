@@ -3,6 +3,7 @@ export default {
     subManuals: {},
     steps: {
         turtleneck_step1: {
+            sectionName: "Introduction",
             title: "TurtleNeck",
             description: `
                 <p>TurtleNeck is a simple toolhead buffer used for syncing two extruder motors together. It features an endstop at each end of travel (advance and trailing). These sensors are triggered 2.5mm before hard stopping the buffer with 25mm of travel in between.</p>
@@ -10,7 +11,7 @@ export default {
             parts: []
         },
         turtleneck_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>RICHTLINIEN FÜR GEDRUCKTE BAUTEILE</h3>
@@ -47,7 +48,7 @@ export default {
             parts: []
         },
         turtleneck_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>DATEINAMEN</h3>
@@ -83,6 +84,7 @@ export default {
             parts: []
         },
         turtleneck_step4: {
+            sectionName: "Assembly",
             title: "Heatset Inserts",
             description: `
                 <p>Install four heatset inserts as shown.</p>

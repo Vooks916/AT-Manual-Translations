@@ -3,12 +3,13 @@ export default {
     subManuals: {},
     steps: {
         box_turtle_calibration_step1: {
+            sectionName: "Introduction",
             title: "Fidget de calibration BoxTurtle",
             description: "Il s'agit d'une impression d'étalonnage pour tester vos paramètres du trancheur lors de la construction du changeur de filament automatique de la tortue et se double d'un jouet fidget cool lorsque vous avez terminé!",
             parts: []
         },
         box_turtle_calibration_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>RECOMMANDATION D'IMPRESSION DES PIECES</h3>
@@ -45,7 +46,7 @@ export default {
             parts: []
         },
         box_turtle_calibration_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>DÉNOMINATION DES FICHIERS</h3>
@@ -81,6 +82,7 @@ export default {
             parts: []
         },
         box_turtle_calibration_step4: {
+            sectionName: "Assembly",
             title: "Retrait du support",
             description: "Assurez-vous de pouvoir facilement retirer les supports arrière et avant sur le corps ainsi que les supports sur le Turtle_Box_Retainer.",
             parts: [

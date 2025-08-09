@@ -3,12 +3,13 @@ export default {
     subManuals: {},
     steps: {
         box_turtle_calibration_step1: {
+            sectionName: "Introduction",
             title: "BoxTurtle Calibration Fidget",
             description: "This is a calibration print to test your slicer settings when building the BoxTurtle Automated Filament Controller and doubles as a cool fidget toy when you're done!",
             parts: []
         },
         box_turtle_calibration_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>PART PRINTING GUIDELINES</h3>
@@ -45,7 +46,7 @@ export default {
             parts: []
         },
         box_turtle_calibration_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>FILE NAMING</h3>
@@ -81,6 +82,7 @@ export default {
             parts: []
         },
         box_turtle_calibration_step4: {
+            sectionName: "Assembly",
             title: "Support Removal",
             description: "Make sure you can easily remove the rear and front supports on the body as well as the supports on the turtle_box_retainer.",
             parts: [

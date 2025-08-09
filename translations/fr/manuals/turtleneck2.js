@@ -3,6 +3,7 @@ export default {
     subManuals: {},
     steps: {
         turtleneck2_step1: {
+            sectionName: "Introduction",
             title: "TurtleNeck 2.0",
             description: `
                 <p>TurtleNeck 2.0 (TN2) Est un tampon pour la tête d'impression d'une imprimante klipper conçu pour fonctionner avec le <a href="https://github.com/ArmoredTurtle/AFC-Klipper-Add-On" target="_blank">module complémentaire AFC Klipper</a>. Il utilise un MCU STM32G0B1 sur USB-C pour son fonctionnement. Ce qui n'ajoute qu'un câble supplémentaire à votre machine Klipper.</p>
@@ -12,7 +13,7 @@ export default {
             parts: []
         },
         turtleneck2_step2: {
-            title: "",
+            title: "Part Printing Guidelines",
             content: `
                 <div class="info">
                     <h3>RECOMMANDATION D'IMPRESSION DES PIECES</h3>
@@ -49,7 +50,7 @@ export default {
             parts: []
         },
         turtleneck2_step3: {
-            title: "",
+            title: "Naming Conventions",
             content: `
                 <div class=info>
                     <h3>DÉNOMINATION DES FICHIERS</h3>
@@ -85,6 +86,7 @@ export default {
             parts: []
         },
         turtleneck2_step4: {
+            sectionName: "Assembly",
             title: "Préparation des pièces",
             description: `
                 <p>Installez quatre inserts comme indiqué.</p>
@@ -118,7 +120,7 @@ export default {
             ]
         },
         turtleneck2_step7: {
-            title: "",
+            title: "Board Flashing",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
@@ -184,7 +186,7 @@ export default {
             ]
         },
         turtleneck2_step13: {
-            title: "",
+            title: "Sanity Check",
             content: `
                 <div class=sanity-check>
                     <img class=stop-turtle src="/images/StopTurtle.webp" alt="Stop Turtle">
