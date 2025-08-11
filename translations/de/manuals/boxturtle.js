@@ -1133,7 +1133,7 @@ export default {
             title: "Lane 4 Extruder",
             description: `
                 <p><strong>HINWEIS:</strong> Einige Benutzer finden es einfacher, den Bowdenschauch (80mm; 3mm ID)  in den Extruder/Spooler einzubauen, bevor der Extruder an der Unterseite des Fachs befestigt wird. Dies wird ab hier nicht mehr erwähnt.</p>
-                <p>Suchen Sie den Extruder für Lane 4 (Load-Sonsor Lane 4: 510mm Kabel, Motor Lane 4: 520mm Kabel).</p>
+                <p>Suchen Sie den Extruder für Lane 4 (Load-Sonsor Lane 4: 465mm Kabel, Motor Lane 4: 520mm Kabel).</p>
                 <p>Sichern Sie den Lane 4 Extruder mit zwei M3x8 Zylinderschrauben. Achten Sie auf die Ausrichtung des Extruders.</p>
             `,
             parts: [

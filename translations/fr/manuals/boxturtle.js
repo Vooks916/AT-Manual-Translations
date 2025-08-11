@@ -1133,7 +1133,7 @@ export default {
             title: "Extrudeur voie 4",
             description: `
                 <p><strong>REMARQUE:</strong> Certains utilisateurs trouvent plus facile d'installer le tube Bowden de 80 mm et 3mm de diamètre intérieur dans l'extrudeur/rembobineur avant de fixer l'extrudeur sous le plateau. Cela ne sera plus mentionné.</p>
-                <p>Identifiez l'extrudeur pour la voie 4 (voie 4, fil de 510 mm, moteur 4, fil de 520 mm).</p>
+                <p>Identifiez l'extrudeur pour la voie 4 (voie 4, fil de 465 mm, moteur 4, fil de 520 mm).</p>
                 <p>Fixez l’extrudeur voie 4 avec deux vis SHCS M3x8 comme illustré. Faites attention à l'orientation de l'extrudeur.</p>
             `,
             parts: [

@@ -1133,7 +1133,7 @@ export default {
             title: "Lane 4 Extruder",
             description: `
                 <p><strong>NOTE:</strong> Some users find it easier to install the 80mm 3mm ID bowden tube into the extruder/spooler before securing the extruder to the underside of the tray. This will not be mentioned again.</p>
-                <p>Identify the extruder for lane 4 (Load 4 510mm lead, Motor 4 520mm lead).</p>
+                <p>Identify the extruder for lane 4 (Load 4 465mm lead, Motor 4 520mm lead).</p>
                 <p>Secure lane 4 extruder with two M3x8 SHCS screws as shown. Be mindful of the orientation of the extruder.</p>
             `,
             parts: [
