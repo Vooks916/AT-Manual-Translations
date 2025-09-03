@@ -30,7 +30,7 @@ export default {
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
                     <p>This manual will walk you through the process of preparing for and assembling a BoxTurtle AFC by Armored Turtle. The introduction provides an overview of how to use this manual, along with guidance on the key decisions you'll need to make before printing your parts.</p>
-                    <p class='extra-space'>Before beginning, please take note of a few <a href="/docs/afc-klipper-add-on/installation/buffer-overview.html" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
+                    <p class='extra-space'>Before beginning, please take note of a few <a href="/docs/boxturtle/errata.html" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
                 </div>
             `,
             parts: []

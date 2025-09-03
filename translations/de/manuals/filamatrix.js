@@ -325,29 +325,18 @@ export default {
             ]
         },
         filamatrix_step26: {
-            title: "Blade Trimming",
-            content: `
-                <div class=wiring-guide>
-                    <img class=wiring-guide-image src="/images/Step 5 Razor Cut.png" alt="Razor Trimming Guide">
-                    <p>Wir empfehlen, eine Sicherheitskappe über die Schneide des #4 Bastelmessers zu setzen, bevor damit hantiert wird. In dieser Darstellung sehen Sie, wie die Klinge auf eine Länge von 26 mm, gemessen von der Schneide, gekürzt werden sollte.</p> 
-                    <p>You can find blade snapping jigs to assist you <a href="https://github.com/thunderkeys/FilamATrix/tree/main/STLs/cutting_jigs" target="_blank">here</a>. To use it, install the heatset inserts, then screw the two halves together with the sharp end of the blade fully inserted. Use pliers to snap off the excess blade protruding from the jig.</p>
-                </div>
-            `,
-            parts: []
-        },
-        filamatrix_step27: {
             title: "Klingenhalter",
             description: `
-                <p>Setzen Sie die Klinge VORSICHTIG in die Halterung ein. Es gibt ein Sichtloch im gedruckten Teil. Die Klinge sollte nach dem Einsetzen das Loch zur Hälfte abdecken.</p>
+                <p>We recommend a safety cap be installed over the cutting edge before handling the #4 hobby-knife.</p>
+                <p>CAREFULLY insert the razor into the knife holder as shown. It should click into place.</p>
                 <p><strong>Hinweis:</strong> Wenn die Klinge nur auf einer Seite eine Fase hat, sollte die flache Seite nach unten zeigen.</p>
-                <p><strong>Zusätzlicher Hinweis:</strong> Falls die Klinge etwas locker sitzt, kann sie mit einem kleinen Tropfen Sekundenkleber fixiert werden.</p>
             `,
             parts: [
                 "[a]_knife_holder.stl",
-                "#4 Bastelmesser auf 26 mm gekürzt"
+                "#4 Bastelmesser"
             ]
         },
-        filamatrix_step28: {
+        filamatrix_step27: {
             title: "Hebel",
             description: `
                 <p>Setzen Sie den Klingenhalter in den Hebel ein und sichern Sie ihn mit einer M2,5x16 Zylinderschraube. Die Ausrichtung ist hier sehr wichtig, montieren Sie ihn nicht verkehrt herum. Der Klingenhalter sollte frei beweglich sein. Ziehen Sie diese Schraube nicht zu fest an.</p>
@@ -357,7 +346,7 @@ export default {
                 "M2,5x16 Zylinderschraube (SHCS)"
             ]
         },
-        filamatrix_step29: {
+        filamatrix_step28: {
             title: "Feder",
             description: `
                 <p>Setzen Sie die Feder in den Hebel ein.</p>
@@ -366,7 +355,7 @@ export default {
                 "0,5x4x25mm Feder"
             ]
         },
-        filamatrix_step30: {
+        filamatrix_step29: {
             title: "Montage des Schneidehebels",
             description: `
                 <p>Setzen Sie die Schneidearm-Baugruppe in die Hotend-Halterung ein. Sichern Sie sie mit einer M3x18 Senkschraube. Die Schraube sollte nicht zu fest angezogen werden, da der Schneidearm frei beweglich bleiben soll.</p>
@@ -375,7 +364,7 @@ export default {
                 "1x M3x18 Senkschraube (FHCS)"
             ]
         },
-        filamatrix_step31: {
+        filamatrix_step30: {
             title: "Hebel Begrenzung",
             description: `
                 <p>Setzen Sie eine M3x8 Zylinderschraube am unteren Ende des Hebels ein. Ziehen Sie diese Schraube nicht vollständig an. Sie dient nur dazu, die Bewegung des Schneidearms nach außen zu begrenzen, sollte ihn jedoch ansonsten nicht behindern.</p>
@@ -385,14 +374,14 @@ export default {
                 "1x M3x8 Zylinderschraube (SHCS)"
             ]
         },
-        filamatrix_step32: {
+        filamatrix_step31: {
             title: "Cutter Showcase",
             description: `
                 <p>In dieser Darstellung sehen Sie den montierten Extruder und den Hotendhalter. Der Schneidearm sollte frei beweglich sein und den Filamentweg nicht blockieren, wenn er vollständig ausgefahren ist.</p>
             `,
             parts: []
         },
-        filamatrix_step33: {
+        filamatrix_step32: {
             title: "Montage der Stealthburner-Front",
             description: `
                 <p><strong>Hinweis:</strong> Bei der Montage der Stealthburner-Front sollte oben links eine M3x20 Zylinderschraube verbaut werden, nicht die standardmäßige M3x25 Zylinderschraube.</p>
@@ -401,7 +390,7 @@ export default {
                 "1x M3x20 Zylinderschraube (SHCS)"
             ]
         },
-        filamatrix_step34: {
+        filamatrix_step33: {
             title: "Beefy Depressor Heatsets",
             description: `
                 <p>Install 2 heatset inserts as shown.</p>
@@ -412,7 +401,7 @@ export default {
                 "2x M3 Heatset inserts"
             ]
         },
-        filamatrix_step35: {
+        filamatrix_step34: {
             title: "Gantry Mount",
             description: `
                 <p>Attatch the beefy_depressor_mount to the <strong>LEFT</strong> side of your gantry using M3 screws and washers.</p>
@@ -425,7 +414,7 @@ export default {
                 "2x M3 Washers"
             ]
         },
-        filamatrix_step36: {
+        filamatrix_step35: {
             title: "Attatch Pin",
             description: `
                 <p>Attach the pin to the mount using an M3x16 FHCS.</p>
@@ -435,7 +424,7 @@ export default {
                 "1x M3x16 FHCS"
             ]
         },
-        filamatrix_step37: {
+        filamatrix_step36: {
             title: "Attatch Pin",
             description: `
                 <p>Thread an M3 hexnut onto an M3x16 BHCS. Install on the side facing into the printer.</p>
@@ -445,7 +434,7 @@ export default {
                 "1x M3 Hexnut"
             ]
         },
-        filamatrix_step38: {
+        filamatrix_step37: {
             title: "Adjustments",
             description: `
                 <p>Now is the time to adjust the height of the pin on the mount and the depth of the screw so it will depress the cutting arm when the toolhead pushes against it (going from right to left).</p>

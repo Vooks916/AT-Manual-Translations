@@ -325,29 +325,18 @@ export default {
             ]
         },
         filamatrix_step26: {
-            title: "Blade Trimming",
-            content: `
-                <div class=wiring-guide>
-                    <img class=wiring-guide-image src="/images/Step 5 Razor Cut.png" alt="Razor Trimming Guide">
-                    <p>Nous vous recommandons d'installer un capuchon de sécurité sur le tranchant avant de manipuler la lame n°4. Le dessin affiché montre comment la lame doit être coupée à 26 mm de longueur, mesuré à partir du bord de coupe.</p> 
-                    <p>You can find blade snapping jigs to assist you <a href="https://github.com/thunderkeys/FilamATrix/tree/main/STLs/cutting_jigs" target="_blank">here</a>. To use it, install the heatset inserts, then screw the two halves together with the sharp end of the blade fully inserted. Use pliers to snap off the excess blade protruding from the jig.</p>
-                </div>
-            `,
-            parts: []
-        },
-        filamatrix_step27: {
             title: "Porte lame",
             description: `
-                <p>Insérez DÉLICATEMENT la lame coupante dans le porte-lame comme indiqué. Il y a un trou témoin dans la partie imprimée, la lame doit être installée à une profondeur qui couvre la moitié de ce trou.</p>
+                <p>We recommend a safety cap be installed over the cutting edge before handling the #4 hobby-knife.</p>
+                <p>CAREFULLY insert the razor into the knife holder as shown. It should click into place.</p>
                 <p><strong>Remarque:</strong> Si votre lame n'a qu'un biseau d'un côté, assurez-vous que le côté plat est orienté vers le bas.</p>
-                <p><strong>Autre remarque:</strong> si votre lame est un peu lâche, elle peut être fixée avec une petite goutte de colle cyanocrylate.</p>
             `,
             parts: [
                 "[a]_knife_holder.stl",
-                "Lame de cutter #4 réduite à 26 mm"
+                "Lame de cutter #4"
             ]
         },
-        filamatrix_step28: {
+        filamatrix_step27: {
             title: "Bras de coupe",
             description: `
                 <p>Installez le porte-lame dans le bras de coupe et maintenez avec une vis M2.5x16 SHC comme indiqué. L'orientation est très importante ici, ne l'installez pas à l'envers. Le porte-lame doit se déplacer librement, ne pas trop serrer cette vis.</p>
@@ -357,7 +346,7 @@ export default {
                 "M2.5x16 SHCS"
             ]
         },
-        filamatrix_step29: {
+        filamatrix_step28: {
             title: "Ressort",
             description: `
                 <p>Installez le ressort hélicoïdal dans le bras de coupe comme illustré.</p>
@@ -366,7 +355,7 @@ export default {
                 "Ressort 0.5x4x25mm"
             ]
         },
-        filamatrix_step30: {
+        filamatrix_step29: {
             title: "Installation du coupe filament",
             description: `
                 <p>Insérez l'ensemble de bras de coupe dans le carénage de la tête comme indiqué. Fixez-le avec une vis FHCS M3x18 comme indiqué. Assurez-vous de ne pas trop le serrer, il est censé pouvoir bouger librement.</p>
@@ -375,7 +364,7 @@ export default {
                 "1x Vis M3x18 FHCS"
             ]
         },
-        filamatrix_step31: {
+        filamatrix_step30: {
             title: "Maintien du coupe filament",
             description: `
                 <p>Installez une vis M3X8 SHCS comme indiqué. Ne serrez pas complètement cette vis, elle est en place pour limiter le déplacement vers l'extérieur du bras de coupe et ne devrait pas interférer avec lui.</p>
@@ -385,14 +374,14 @@ export default {
                 "1x Vis M3x8 SHCS"
             ]
         },
-        filamatrix_step32: {
+        filamatrix_step31: {
             title: "Illustration de la coupe de filament",
             description: `
                 <p>L'extrudeur et la tête d'impression sont illustrés tels qu'ils le seraient sur le chariot que vous avez choisi. Le bras de coupe doit bouger librement et ne pas obstruer le chemin du filament lorsqu'il est complètement relâché.</p>
             `,
             parts: []
         },
-        filamatrix_step33: {
+        filamatrix_step32: {
             title: "Installation de la façade",
             description: `
                 <p><strong>Remarque:</strong> Lors de l'installation du corps principal du StealthBurner sur FilAmatrTix, assurez-vous d'utiliser une vis M3X20 SHCS, pas une des M3X25 SHCS en stock.</p>
@@ -401,7 +390,7 @@ export default {
                 "1x Vis M3x20 SHCS"
             ]
         },
-        filamatrix_step34: {
+        filamatrix_step33: {
             title: "Beefy Depressor Heatsets",
             description: `
                 <p>Install 2 heatset inserts as shown.</p>
@@ -412,7 +401,7 @@ export default {
                 "2x M3 Heatset inserts"
             ]
         },
-        filamatrix_step35: {
+        filamatrix_step34: {
             title: "Gantry Mount",
             description: `
                 <p>Attatch the beefy_depressor_mount to the <strong>LEFT</strong> side of your gantry using M3 screws and washers.</p>
@@ -425,7 +414,7 @@ export default {
                 "2x M3 Washers"
             ]
         },
-        filamatrix_step36: {
+        filamatrix_step35: {
             title: "Attatch Pin",
             description: `
                 <p>Attach the pin to the mount using an M3x16 FHCS.</p>
@@ -435,7 +424,7 @@ export default {
                 "1x M3x16 FHCS"
             ]
         },
-        filamatrix_step37: {
+        filamatrix_step36: {
             title: "Attatch Pin",
             description: `
                 <p>Thread an M3 hexnut onto an M3x16 BHCS. Install on the side facing into the printer.</p>
@@ -445,7 +434,7 @@ export default {
                 "1x M3 Hexnut"
             ]
         },
-        filamatrix_step38: {
+        filamatrix_step37: {
             title: "Adjustments",
             description: `
                 <p>Now is the time to adjust the height of the pin on the mount and the depth of the screw so it will depress the cutting arm when the toolhead pushes against it (going from right to left).</p>

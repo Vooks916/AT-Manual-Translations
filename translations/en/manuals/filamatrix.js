@@ -325,29 +325,18 @@ export default {
             ]
         },
         filamatrix_step26: {
-            title: "Blade Trimming",
-            content: `
-                <div class=wiring-guide>
-                    <img class=wiring-guide-image src="/images/Step 5 Razor Cut.png" alt="Razor Trimming Guide">
-                    <p>We recommend a safety cap be installed over the cutting edge before handling the #4 hobby-knife. Displayed is a diagram of how the razor should be trimmed to 26mm in length, measured from the cutting edge.</p> 
-                    <p>You can find blade snapping jigs to assist you <a href="https://github.com/thunderkeys/FilamATrix/tree/main/STLs/cutting_jigs" target="_blank">here</a>. To use it, install the heatset inserts, then screw the two halves together with the sharp end of the blade fully inserted. Use pliers to snap off the excess blade protruding from the jig.</p>
-                </div>
-            `,
-            parts: []
-        },
-        filamatrix_step27: {
             title: "Razor Holder",
             description: `
-                <p>CAREFULLY insert the razor into the knife holder as shown. There is a witness hole in the printed part, the razor should be installed to a depth that it covers half of this hole.</p>
+                <p>We recommend a safety cap be installed over the cutting edge before handling the #4 hobby-knife.</p>
+                <p>CAREFULLY insert the razor into the knife holder as shown. It should click into place.</p>
                 <p><strong>Note:</strong> If your blade only has a bevel on one side, ensure the flat side is facing down.</p>
-                <p><strong>Other Note:</strong> If your blade is a little loose, it can be secured with a small drop of CA glue.</p>
             `,
             parts: [
                 "[a]_knife_holder.stl",
-                "#4 Hobby-knife trimmed to 26mm"
+                "#4 Hobby-knife"
             ]
         },
-        filamatrix_step28: {
+        filamatrix_step27: {
             title: "Cutting arm",
             description: `
                 <p>Install the knife holder into the cutting arm and retain with an M2.5x16 SHCS as shown. Orientation is very important here, do not install it upside down. The knife holder should move freely, do not over tighten this screw.</p>
@@ -357,7 +346,7 @@ export default {
                 "M2.5x16 SHCS"
             ]
         },
-        filamatrix_step29: {
+        filamatrix_step28: {
             title: "Spring",
             description: `
                 <p>Install the coil spring into the cut arm as shown.</p>
@@ -366,7 +355,7 @@ export default {
                 "0.5x4x25mm Coil Spring"
             ]
         },
-        filamatrix_step30: {
+        filamatrix_step29: {
             title: "Cutter Installation",
             description: `
                 <p>Insert the cut arm assembly into the hotend shroud as shown. Retain with an M3x18 FHCS as shown. Be sure not to over-tighten this, it is meant to move freely.</p>
@@ -375,7 +364,7 @@ export default {
                 "1x M3x18 FHCS"
             ]
         },
-        filamatrix_step31: {
+        filamatrix_step30: {
             title: "Cutter Retainer",
             description: `
                 <p>Install an M3x8 SHCS screw as shown. Do not fully tighten this screw, it is in place to limit the outward travel of the cut arm, it should not interfere with it otherwise.</p>
@@ -385,14 +374,14 @@ export default {
                 "1x M3x8 SHCS"
             ]
         },
-        filamatrix_step32: {
+        filamatrix_step31: {
             title: "Cutter Showcase",
             description: `
                 <p>Shown is the extruder and hotend as they would be on your chosen carriage. The cut arm should move freely and not obstruct the filament path when fully released.</p>
             `,
             parts: []
         },
-        filamatrix_step33: {
+        filamatrix_step32: {
             title: "Faceplate Installation",
             description: `
                 <p><strong>Note:</strong> When installing the StealthBurner mainbody on FilamATrix, make sure to use an M3x20 SHCS, not the stock M3x25 SHCS.</p>
@@ -401,7 +390,7 @@ export default {
                 "1x M3x20 SHCS"
             ]
         },
-        filamatrix_step34: {
+        filamatrix_step33: {
             title: "Beefy Depressor Heatsets",
             description: `
                 <p>Install 2 heatset inserts as shown.</p>
@@ -412,7 +401,7 @@ export default {
                 "2x M3 Heatset inserts"
             ]
         },
-        filamatrix_step35: {
+        filamatrix_step34: {
             title: "Gantry Mount",
             description: `
                 <p>Attatch the beefy_depressor_mount to the <strong>LEFT</strong> side of your gantry using M3 screws and washers.</p>
@@ -425,7 +414,7 @@ export default {
                 "2x M3 Washers"
             ]
         },
-        filamatrix_step36: {
+        filamatrix_step35: {
             title: "Attatch Pin",
             description: `
                 <p>Attach the pin to the mount using an M3x16 FHCS.</p>
@@ -435,7 +424,7 @@ export default {
                 "1x M3x16 FHCS"
             ]
         },
-        filamatrix_step37: {
+        filamatrix_step36: {
             title: "Attatch Pin",
             description: `
                 <p>Thread an M3 hexnut onto an M3x16 BHCS. Install on the side facing into the printer.</p>
@@ -445,7 +434,7 @@ export default {
                 "1x M3 Hexnut"
             ]
         },
-        filamatrix_step38: {
+        filamatrix_step37: {
             title: "Adjustments",
             description: `
                 <p>Now is the time to adjust the height of the pin on the mount and the depth of the screw so it will depress the cutting arm when the toolhead pushes against it (going from right to left).</p>
