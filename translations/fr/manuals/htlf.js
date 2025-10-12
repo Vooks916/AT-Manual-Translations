@@ -237,7 +237,7 @@ export default {
                 <p>Insert two ECAS04 collets into the e_body. As mentioned in the introduction of this manual, be sure that you remove the rubber seals from the ECAS fittings.</p>
                 <p>Install the 6x3mm magnets as shown, if they are loose, a drop of CA glue goes a long way to keep them in place.</p>
                 <p><strong>Note:</strong> Be sure to choose a temperature appropriate for your selected printed parts material. Be careful! Hot things are hot...</p>
-                <p><strong>This is the last step in this assembly manual that installs heat set inserts. Turn off your iron and set it some place safe before proceeding.</strong></p>
+                <p><strong>This is the last step in this section that installs heat set inserts. Turn off your iron and set it some place safe before proceeding.</strong></p>
             `,
             parts: [
                 "e_body.stl",
@@ -314,7 +314,7 @@ export default {
                 <p>Install the 80t pulley as shown with <strong>thread lock</strong> on the grub screws. Mind the orientation. You should have 101mm (4 inches) of shaft exposed on the long side.</p>
             `,
             parts: [
-                "2x ~125mm D shaft"
+                "1x ~125mm D shaft"
             ]
         },
         htlf_preparation_step13: {
@@ -677,6 +677,7 @@ export default {
             description: `
                 <p>Now that your unit is built, you may choose to follow <a href="/docs/boxturtle/initial_startup/01-overview.html" target="_blank">BoxTurtle’s initial start up guide</a> (very similar process).</p>
                 <p>Or choose your own adventure.</p>
+                <p>Two of our discord members, <strong>@Mib | HTLF-011</strong> and <strong>@james1979 | HTLF-010</strong>, put together this <a href="/docs/assets/docs/HTLF_Wiring_help.pdf" target="blank">PDF file</a> to assist in the wiring of your HTLF.</p>
                 <p>Feel free to ask questions in the <a href="https://discord.gg/AaVHfeYgw2" target="_blank">ArmoredTurtle Discord help community</a>.</p>
             `,
             parts: []
