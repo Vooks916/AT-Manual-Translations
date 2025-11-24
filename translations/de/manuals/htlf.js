@@ -127,7 +127,7 @@ export default {
                     <h3>ECAS-04 (the worst part)</h3>
                     <p><strong>The bowden couplers used in HTLF are meant to be tight, your tolerances aren’t bad if they take some persuasion to insert. You do NOT want these coming out of the printed parts.</strong></p>
                     <p><strong>Reference this assembly photo for these. Typically, the blue plunger will need to be inserted into the collet body.</strong></p>
-                    <p><strong>The rubber seal will need to be removed from the seal retainer. Be sure that the retainer is left on the collet body. At no time, in any Armored Turtle project, will the rubber seal be utilized. Discard these appropriately.</strong></p>
+                    <p><strong>The rubber seal will need to be removed from the seal retainer. Be sure that the retainer is left on the collet body. At no time, in any ArmoredTurtle project, will the rubber seal be utilized. Discard these appropriately.</strong></p>
                     <img class='ecas-preparation' src="/images/ecas-preparation.webp" alt="ECAS Preparation">
                 </div>
             `,

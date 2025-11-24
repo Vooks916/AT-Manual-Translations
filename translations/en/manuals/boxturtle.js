@@ -29,7 +29,7 @@ export default {
             content: `
                 <div class="infoL">
                     <h3>INTRODUCTION</h3>
-                    <p>This manual will walk you through the process of preparing for and assembling a BoxTurtle AFC by Armored Turtle. The introduction provides an overview of how to use this manual, along with guidance on the key decisions you'll need to make before printing your parts.</p>
+                    <p>This manual will walk you through the process of preparing for and assembling a BoxTurtle AFC by ArmoredTurtle. The introduction provides an overview of how to use this manual, along with guidance on the key decisions you'll need to make before printing your parts.</p>
                     <p class='extra-space'>Before beginning, please take note of a few <a href="/docs/boxturtle/errata.html" target="_blank">minor issues</a> that we were unable to correct in time for the v1.0 release.</p>
                 </div>
             `,
@@ -172,7 +172,7 @@ export default {
                     <h3>ECAS-04 (the worst part)</h3>
                     <p>The bowden couplers used in BoxTurtle are meant to be tight, your tolerances aren’t bad if they take some persuasion to insert. You do NOT want these coming out of the printed parts.</p>
                     <p>Reference this assembly photo for these. Typically, the blue plunger will need to be inserted into the collet body.</p>
-                    <p>The rubber seal will need to be removed from the seal retainer. Be sure that the retainer is left on the collet body. At no time, in any Armored Turtle project, will the rubber seal be utilized. Discard these appropriately.</p>
+                    <p>The rubber seal will need to be removed from the seal retainer. Be sure that the retainer is left on the collet body. At no time, in any ArmoredTurtle project, will the rubber seal be utilized. Discard these appropriately.</p>
                     <img class='ecas-preparation' src="/images/ecas-preparation.webp" alt="ECAS Preparation">
                 </div>
             `,

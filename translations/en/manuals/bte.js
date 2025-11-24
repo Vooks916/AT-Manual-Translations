@@ -169,7 +169,7 @@ export default {
                 "[a]_lower_hinge_foot.stl",
                 "lower_cover.stl",
                 "lower_hinge.stl",
-                "2x foot_tpu",
+                "2x foot_tpu.stl",
                 "2x M5x16 BHCS",
                 "2x M5 hexnut"
             ]
