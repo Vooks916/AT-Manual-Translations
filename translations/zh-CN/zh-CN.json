@@ -1,0 +1,18 @@
+{
+    "header": {
+        "home_page_title": "ArmoredTurtle 手册"
+    },
+    "body": {
+        "of": "/",
+        "required_parts": "所需零件：",
+        "home": "首页"
+    },
+    "buttons": {
+        "view_manual": "查看手册",
+        "primary_color": "主色：",
+        "accent_color": "点缀色：",
+        "frame_color": "框架色：",
+        "previous": "上一步",
+        "next": "下一步"
+    }
+}
